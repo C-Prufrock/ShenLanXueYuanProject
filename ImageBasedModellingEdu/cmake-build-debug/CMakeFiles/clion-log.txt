@@ -1,0 +1,7 @@
+/home/true/第三方库安装/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/true/深蓝学院/ImageBasedModellingEdu
+PNG found: /usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libz.so
+JPEG found: /usr/lib/x86_64-linux-gnu/libjpeg.so
+TIFF found: /usr/lib/x86_64-linux-gnu/libtiff.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug

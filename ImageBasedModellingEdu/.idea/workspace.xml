@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/features/sift.cc" line="728" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="ImageBasedModellingEdu" targetName="sfm" />
+      <config projectName="ImageBasedModellingEdu" targetName="task1_test_features" />
+      <config projectName="ImageBasedModellingEdu" targetName="task2_test_fundamental_ransac" />
+      <config projectName="ImageBasedModellingEdu" targetName="task2_test_math_basic" />
+      <config projectName="ImageBasedModellingEdu" targetName="features" />
+      <config projectName="ImageBasedModellingEdu" targetName="task2_test_pose_from_fundamental" />
+      <config projectName="ImageBasedModellingEdu" targetName="task2_test_fundamental_8_point" />
+      <config projectName="ImageBasedModellingEdu" targetName="task2_test_camera_model" />
+      <config projectName="ImageBasedModellingEdu" targetName="core" />
+      <config projectName="ImageBasedModellingEdu" targetName="util" />
+      <config projectName="ImageBasedModellingEdu" targetName="task1_test_matching" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2676baa4-d72c-4f51-b2a8-305149c9dd01" name="Default" comment="fist time">
+      <change afterPath="$PROJECT_DIR$/examples/task2/calss2_test_pose_from_fundamental.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/task2/class2_test_camera.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/task2/correspondences.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/matching_featureset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ImageBasedModellingEdu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ImageBasedModellingEdu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/caoqi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/caoqi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/core/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Makefile.dep" beforeDir="false" afterPath="$PROJECT_DIR$/core/Makefile.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bundle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/bundle.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bundle.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/bundle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bundle_io.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/bundle_io.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bundle_io.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/bundle_io.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/camera.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/camera.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/defines.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/defines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/depthmap.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/depthmap.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/depthmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/depthmap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/image.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_color.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_color.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_drawing.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_drawing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_exif.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_exif.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_exif.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_exif.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_io.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_io.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_io.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_io.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_tools.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_tools.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/image_tools.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/image_tools.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/marching.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/marching.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/marching_cubes.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/marching_cubes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/marching_tets.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/marching_tets.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_info.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_info.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_info.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_info.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_npts.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_npts.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_npts.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_npts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_obj.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_obj.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_obj.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_obj.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_off.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_off.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_off.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_off.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_pbrt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_pbrt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_pbrt.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_pbrt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_ply.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_ply.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_ply.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_ply.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_smf.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_smf.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_io_smf.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_io_smf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_tools.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_tools.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mesh_tools.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/mesh_tools.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/scene.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/scene.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/scene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/view.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/view.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/view.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/view.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/volume.cc" beforeDir="false" afterPath="$PROJECT_DIR$/core/volume.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/volume.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/volume.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/example.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/example.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/kxm1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/kxm1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/kxm2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/kxm2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/sequence/IMG_0191.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/sequence/IMG_0191.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/sequence/IMG_0192.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/sequence/IMG_0192.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/sequence/IMG_0193.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/sequence/IMG_0193.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/sequence/IMG_0194.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/sequence/IMG_0194.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/sequence/IMG_0195.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/sequence/IMG_0195.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/sequence/IMG_0196.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/sequence/IMG_0196.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data/sequence/IMG_0197.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/examples/data/sequence/IMG_0197.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task1/class1_test_features.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task1/class1_test_features.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task1/class1_test_matching.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task1/class1_test_matching.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task1/visualizer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task1/visualizer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task1/visualizer.h" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task1/visualizer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/class2_test_bundle_adjustment.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/class2_test_fundamental_8_point.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/class2_test_fundamental_8_point.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/class2_test_fundamental_ransac.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/class2_test_fundamental_ransac.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/class2_test_jacobian.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/class2_test_p3p.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/class2_test_triangle.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/task2_test_math_basic.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/class2_test_math_basic.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/visualizer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/visualizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/features/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/cascade_hashing.cc" beforeDir="false" afterPath="$PROJECT_DIR$/features/cascade_hashing.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/cascade_hashing.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/cascade_hashing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/defines.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/defines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/exhaustive_matching.cc" beforeDir="false" afterPath="$PROJECT_DIR$/features/exhaustive_matching.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/exhaustive_matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/exhaustive_matching.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/matching.cc" beforeDir="false" afterPath="$PROJECT_DIR$/features/matching.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/matching.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/matching.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/matching_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/matching_base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/nearest_neighbor.cc" beforeDir="false" afterPath="$PROJECT_DIR$/features/nearest_neighbor.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/nearest_neighbor.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/nearest_neighbor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/sift.cc" beforeDir="false" afterPath="$PROJECT_DIR$/features/sift.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/sift.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/sift.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/surf.cc" beforeDir="false" afterPath="$PROJECT_DIR$/features/surf.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/surf.h" beforeDir="false" afterPath="$PROJECT_DIR$/features/surf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/math/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/math/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/accum.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/accum.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/algo.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/algo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/bezier_curve.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/bezier_curve.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/bspline.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/bspline.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/defines.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/defines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/geometry.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/geometry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/line.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/line.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/matrix_qr.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/matrix_qr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/matrix_svd.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/matrix_svd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/matrix_tools.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/matrix_tools.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/octree_tools.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/octree_tools.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/permute.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/permute.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/plane.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/plane.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/quaternion.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/quaternion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/transform.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/transform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/math/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ba_cholesky.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ba_cholesky.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ba_conjugate_gradient.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ba_conjugate_gradient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ba_dense_vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ba_dense_vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ba_linear_solver.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ba_linear_solver.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ba_linear_solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ba_linear_solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ba_sparse_matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ba_sparse_matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ba_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ba_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/bundle_adjustment.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/bundle_adjustment.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/bundle_adjustment.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/bundle_adjustment.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/bundler_common.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/bundler_common.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/bundler_common.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/bundler_common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/camera_database.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/camera_database.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/camera_database.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/camera_database.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/camera_pose.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/camera_pose.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/correspondence.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/correspondence.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/defines.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/defines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/extract_focal_length.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/extract_focal_length.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/extract_focal_length.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/extract_focal_length.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/feature_set.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/feature_set.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/feature_set.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/feature_set.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/fundamental.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/fundamental.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/fundamental.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/fundamental.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/homography.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/homography.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/homography.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/homography.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/pose_p3p.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/pose_p3p.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/pose_p3p.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/pose_p3p.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac_fundamental.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac_fundamental.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac_fundamental.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac_fundamental.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac_homography.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac_homography.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac_homography.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac_homography.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac_pose_p3p.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac_pose_p3p.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/ransac_pose_p3p.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/ransac_pose_p3p.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/triangulate.cc" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/triangulate.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfm/triangulate.h" beforeDir="false" afterPath="$PROJECT_DIR$/sfm/triangulate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/util/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/util/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/Makefile.dep" beforeDir="false" afterPath="$PROJECT_DIR$/util/Makefile.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/aligned_allocator.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/aligned_allocator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/aligned_memory.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/aligned_memory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/arguments.cc" beforeDir="false" afterPath="$PROJECT_DIR$/util/arguments.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/arguments.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/arguments.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/defines.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/defines.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/exception.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/exception.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/file_system.cc" beforeDir="false" afterPath="$PROJECT_DIR$/util/file_system.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/file_system.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/file_system.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/frame_timer.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/frame_timer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ini_parser.cc" beforeDir="false" afterPath="$PROJECT_DIR$/util/ini_parser.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ini_parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/ini_parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/logging.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/logging.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/strings.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/strings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/system.cc" beforeDir="false" afterPath="$PROJECT_DIR$/util/system.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/system.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/system.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/timer.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/timer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/tokenizer.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/tokenizer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$雅各比矩阵推导.docx" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-468927562">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JPG" value="6" />
+          <entry key="cbp" value="1" />
+          <entry key="cc" value="18" />
+          <entry key="cmake" value="1" />
+          <entry key="h" value="27" />
+          <entry key="jpg" value="1" />
+          <entry key="png" value="4" />
+          <entry key="task1_test_matching" value="1" />
+          <entry key="txt" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="12" />
+          <entry key="Image" value="11" />
+          <entry key="ObjectiveC" value="46" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cc" value="6276" />
+          <entry key="h" value="1223" />
+          <entry key="txt" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="35" />
+          <entry key="ObjectiveC" value="7499" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_fundamental_8_point.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1815">
+              <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
+              <folding>
+                <element signature="e#2081#2109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_fundamental_ransac.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="256" column="71" selection-start-line="256" selection-start-column="71" selection-end-line="256" selection-end-column="71" />
+              <folding>
+                <element signature="e#278#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sfm/correspondence.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/task2/correspondences.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/math/functions.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2565">
+              <caret line="171" selection-start-line="171" selection-end-line="171" />
+              <folding>
+                <element signature="e#806#818#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_math_basic.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/math/matrix_svd.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13380">
+              <caret line="892" column="5" selection-start-line="892" selection-start-column="5" selection-end-line="892" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10380">
+              <caret line="692" column="6" selection-start-line="692" selection-start-column="6" selection-end-line="692" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/task1/class1_test_features.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+              <folding>
+                <element signature="e#277#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/defines.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>namespace</find>
+      <find>sift_descr</find>
+      <find>trian</find>
+      <find>mve</find>
+      <find>is_consis</find>
+      <find>dogs</find>
+      <find>si</find>
+      <find>extrema_detection</find>
+      <find>row</find>
+      <find>fill</find>
+      <find>analytic_jacobian_entries</find>
+      <find>ja</find>
+      <find>analytic_jacobian</find>
+      <find>generate_grad_ori_images</find>
+      <find>base_blur_sigma</find>
+      <find>keypoint_relative_scale</find>
+      <find>orientation_assignment</find>
+      <find>orientation_assignment</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>core</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/core/image_exif.cc" />
+        <option value="$PROJECT_DIR$/core/image_base.h" />
+        <option value="$PROJECT_DIR$/core/image_io.h" />
+        <option value="$PROJECT_DIR$/core/image_tools.cc" />
+        <option value="$PROJECT_DIR$/core/image_io.cc" />
+        <option value="$PROJECT_DIR$/core/view.h" />
+        <option value="$PROJECT_DIR$/core/scene.h" />
+        <option value="$PROJECT_DIR$/core/view.cc" />
+        <option value="$PROJECT_DIR$/core/scene.cc" />
+        <option value="$PROJECT_DIR$/core/image_drawing.h" />
+        <option value="$PROJECT_DIR$/features/surf.h" />
+        <option value="$PROJECT_DIR$/features/surf.cc" />
+        <option value="$PROJECT_DIR$/sfm/feature_set.h" />
+        <option value="$PROJECT_DIR$/sfm/bundler_common.h" />
+        <option value="$PROJECT_DIR$/sfm/feature_set.cc" />
+        <option value="$PROJECT_DIR$/examples/visualizer.h" />
+        <option value="$PROJECT_DIR$/examples/visualizer.cc" />
+        <option value="$PROJECT_DIR$/sfm/ransac_fundamental.cc" />
+        <option value="$PROJECT_DIR$/examples/class2_test_homography.cc" />
+        <option value="$PROJECT_DIR$/sfm/extract_focal_length.h" />
+        <option value="$PROJECT_DIR$/sfm/extract_focal_length.cc" />
+        <option value="$PROJECT_DIR$/sfm/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/examples/class2_test_bundle_adjustment.cc" />
+        <option value="$PROJECT_DIR$/examples/class1_test_matching.cc" />
+        <option value="$PROJECT_DIR$/examples/class1_test_features.cc" />
+        <option value="$PROJECT_DIR$/examples/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_8point.cpp" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_homography.cc" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_8point.cc" />
+        <option value="$PROJECT_DIR$/math/matrix.h" />
+        <option value="$PROJECT_DIR$/examples/task2/task2_test_math_basic.cc" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_p3p.cc" />
+        <option value="$PROJECT_DIR$/sfm/fundamental.cc" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_triangle.cc" />
+        <option value="$PROJECT_DIR$/sfm/bundle_adjustment.h" />
+        <option value="$PROJECT_DIR$/sfm/bundle_adjustment.cc" />
+        <option value="$PROJECT_DIR$/examples/task2/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_bundle_adjustment.cc" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_jacobian.cc" />
+        <option value="$PROJECT_DIR$/examples/task1/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/examples/task1/class1_test_features.cc" />
+        <option value="$PROJECT_DIR$/features/sift.h" />
+        <option value="$PROJECT_DIR$/core/image_tools.h" />
+        <option value="$PROJECT_DIR$/math/functions.h" />
+        <option value="$PROJECT_DIR$/features/sift.cc" />
+        <option value="$PROJECT_DIR$/core/image.h" />
+        <option value="$PROJECT_DIR$/features/nearest_neighbor.h" />
+        <option value="$PROJECT_DIR$/features/matching.h" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_camera.cc" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_fundamental_8_point.cc" />
+        <option value="$PROJECT_DIR$/examples/task2/class2_test_fundamental_ransac.cc" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ImageBasedModellingEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageBasedModellingEdu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageBasedModellingEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageBasedModellingEdu" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+          <expand>
+            <path>
+              <item name="ImageBasedModellingEdu" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/true/深蓝学院/ImageBasedModellingEdu/core/image_tools.h&#10;core&#9;RUN_CONFIGURATION&#9;core" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.task2_test_fundamental_ransac">
+    <configuration name="features" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="features" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="sfm" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1_test_features" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./examples/data/kxm1.jpg ./examples/data/kxm2.jpg" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task1_test_matching" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task1_test_matching">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1_test_matching" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./examples/data/kxm1.jpg ./examples/data/kxm2.jpg" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task1_test_matching" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task1_test_matching">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_test_ba" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./examples/data/sequence/IMG_0191.JPG ./examples/data/sequence/IMG_0192.JPG" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task2_test_ba" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task2_test_fundamental_8_point">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_test_camera_model" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task2_test_camera_model" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task2_test_camera_model">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_test_fundamental_8_point" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="./examples/data/sequence/IMG_0191.JPG ./examples/data/sequence/IMG_0192.JPG" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task2_test_fundamental_8_point" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task2_test_fundamental_8_point">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_test_fundamental_ransac" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task2_test_fundamental_ransac" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task2_test_fundamental_ransac">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_test_jacobian" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task2_test_jacobian" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task2_test_jacobian">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_test_math_basic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task2_test_math_basic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task2_test_math_basic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_test_pose_from_fundamental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="task2_test_pose_from_fundamental" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageBasedModellingEdu" RUN_TARGET_NAME="task2_test_pose_from_fundamental">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="util" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.task1_test_features" />
+      <item itemvalue="Application.task1_test_matching" />
+      <item itemvalue="Application.task2_test_camera_model" />
+      <item itemvalue="Application.task2_test_ba" />
+      <item itemvalue="Application.task2_test_fundamental_8_point" />
+      <item itemvalue="Application.task2_test_fundamental_ransac" />
+      <item itemvalue="Application.task2_test_jacobian" />
+      <item itemvalue="Application.task2_test_math_basic" />
+      <item itemvalue="Application.task2_test_pose_from_fundamental" />
+      <item itemvalue="Application.features" />
+      <item itemvalue="Application.sfm" />
+      <item itemvalue="Application.util" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2676baa4-d72c-4f51-b2a8-305149c9dd01" name="Default" comment="" />
+      <created>1535035787316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535035787316</updated>
+      <workItem from="1535035788894" duration="8292000" />
+      <workItem from="1535112821722" duration="594000" />
+      <workItem from="1535120254053" duration="9197000" />
+      <workItem from="1535169065716" duration="3031000" />
+      <workItem from="1535174932259" duration="22093000" />
+      <workItem from="1535269078487" duration="16000" />
+      <workItem from="1535269106471" duration="19142000" />
+      <workItem from="1535386393795" duration="13781000" />
+      <workItem from="1535469568805" duration="1044000" />
+      <workItem from="1535537656059" duration="10971000" />
+      <workItem from="1535589993390" duration="5586000" />
+      <workItem from="1535605915927" duration="12880000" />
+      <workItem from="1535640619040" duration="6768000" />
+      <workItem from="1535704138501" duration="2034000" />
+      <workItem from="1535720105331" duration="10389000" />
+      <workItem from="1535789197123" duration="2259000" />
+      <workItem from="1535791597558" duration="412000" />
+      <workItem from="1535792373399" duration="1056000" />
+      <workItem from="1535793591622" duration="113000" />
+      <workItem from="1536067086226" duration="10965000" />
+      <workItem from="1536199964332" duration="3816000" />
+      <workItem from="1536283069125" duration="176000" />
+      <workItem from="1536283261916" duration="1190000" />
+      <workItem from="1536305053878" duration="2751000" />
+      <workItem from="1536541199643" duration="19538000" />
+      <workItem from="1536634474294" duration="3253000" />
+      <workItem from="1536648995117" duration="16640000" />
+      <workItem from="1536726367080" duration="14151000" />
+      <workItem from="1536755974341" duration="9580000" />
+      <workItem from="1540212871869" duration="6242000" />
+      <workItem from="1540379379800" duration="2008000" />
+      <workItem from="1540391820655" duration="6174000" />
+      <workItem from="1540518554779" duration="1178000" />
+      <workItem from="1540891274472" duration="2419000" />
+      <workItem from="1540893853550" duration="3473000" />
+    </task>
+    <task id="LOCAL-00001" summary="fist time">
+      <created>1535793272571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535793272571</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fist time">
+      <created>1540902612462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540902612462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="233212000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.23607281" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35900104" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33905014" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.32657418" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32977587" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32977587" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.28922093" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fist time" />
+    <option name="LAST_COMMIT_MESSAGE" value="fist time" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/task2/class2_test_bundle_adjustment.cc</url>
+          <line>299</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/task2/class2_test_bundle_adjustment.cc</url>
+          <line>434</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/task2/class2_test_jacobian.cc</url>
+          <line>188</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/examples/task2/class2_test_jacobian.cc</url>
+          <line>209</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sfm/ba_conjugate_gradient.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_p3p.cc" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/examples/task1/task1.cbp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/core/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/examples/task1/task1_test_matching">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/cascade_hashing.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data/kxm1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/mesh_tools.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data/sequence/IMG_0191.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data/sequence/IMG_0196.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data/sequence/IMG_0197.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data/sequence/IMG_0195.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data/sequence/IMG_0193.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/data/sequence/IMG_0192.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5235">
+          <caret line="80" column="15" lean-forward="true" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/image_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task1/visualizer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math/matrix_tools.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="922">
+          <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math/matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/matching_featureset.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/image.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="200" column="1" lean-forward="true" selection-start-line="200" selection-start-column="1" selection-end-line="200" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/image_color.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="91" column="72" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/image_tools.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="1047" column="35" lean-forward="true" selection-start-line="1047" selection-start-column="35" selection-end-line="1047" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/sift.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958">
+          <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task1/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/sift.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6570">
+          <caret line="438" column="39" selection-start-line="438" selection-start-column="39" selection-end-line="438" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/matching.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/matching.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Task-2/task2/class2_test_camera.cc" />
+    <entry file="file://$PROJECT_DIR$/math/vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/nearest_neighbor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math/defines.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/cascade_hashing.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task1/class1_test_matching.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task2/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_camera.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_fundamental_8_point.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
+          <folding>
+            <element signature="e#2081#2109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sfm/correspondence.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task2/correspondences.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math/functions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="e#806#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_math_basic.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math/matrix_svd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13380">
+          <caret line="892" column="5" selection-start-line="892" selection-start-column="5" selection-end-line="892" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10380">
+          <caret line="692" column="6" selection-start-line="692" selection-start-column="6" selection-end-line="692" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task1/class1_test_features.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+          <folding>
+            <element signature="e#277#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/defines.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/task2/class2_test_fundamental_ransac.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="256" column="71" selection-start-line="256" selection-start-column="71" selection-end-line="256" selection-end-column="71" />
+          <folding>
+            <element signature="e#278#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

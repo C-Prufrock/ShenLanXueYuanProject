@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="task2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\core\;CMake Files\util\;CMake Files\features\;CMake Files\sfm\;CMake Files\examples\;CMake Files\examples\task1\;CMake Files\examples\task2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_ba">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_ba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_ba"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_ba/fast">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_ba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_ba/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_p3p">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_p3p" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_p3p"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_p3p/fast">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_p3p" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_p3p/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_jacobian">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_jacobian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_jacobian"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_jacobian/fast">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_jacobian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_jacobian/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_math_basic">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_math_basic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_math_basic"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_math_basic/fast">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_math_basic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_math_basic/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_homography_ransac">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_homography_ransac" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_homography_ransac"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_homography_ransac/fast">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_homography_ransac" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_homography_ransac/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_triangle">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_triangle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_triangle/fast">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_fundamental_8_point">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_fundamental_8_point" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_fundamental_8_point"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task2_test_fundamental_8_point/fast">
+				<Option output="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/task2_test_fundamental_8_point" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/../.."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_fundamental_8_point/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/true/深蓝学院/ImageBasedModellingEdu/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/class2_test_bundle_adjustment.cc">
+			<Option target="task2_test_ba"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/class2_test_fundamental_8_point.cc">
+			<Option target="task2_test_fundamental_8_point"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/class2_test_fundamental_ransac.cc">
+			<Option target="task2_test_homography_ransac"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/class2_test_jacobian.cc">
+			<Option target="task2_test_jacobian"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/class2_test_p3p.cc">
+			<Option target="task2_test_p3p"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/class2_test_triangle.cc">
+			<Option target="task2_test_triangle"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/task2_test_math_basic.cc">
+			<Option target="task2_test_math_basic"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/visualizer.cc">
+			<Option target="task2_test_homography_ransac"/>
+			<Option target="task2_test_fundamental_8_point"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/visualizer.h">
+			<Option target="task2_test_homography_ransac"/>
+			<Option target="task2_test_fundamental_8_point"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\core\"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\util\"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/features/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\features\"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/sfm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sfm\"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task1\"/>
+		</Unit>
+		<Unit filename="/home/true/深蓝学院/ImageBasedModellingEdu/examples/task2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\task2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
